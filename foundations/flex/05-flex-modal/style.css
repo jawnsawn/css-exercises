@@ -67,3 +67,35 @@ button.cancel {
   border: 1px solid #ddd;
   color: royalblue;
 }
+
+
+/* My Work */
+.modal {
+  display: flex;
+  padding: 16px;
+  gap: 16px
+}
+
+.icon,
+.close-button {
+  flex-shrink: 0;
+}
+
+.right-side {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  gap: 8px;
+}
+
+.top-right {
+  display: flex;
+  justify-content: space-between;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.buttons {
+  display: flex;
+  gap: 8px;
+}

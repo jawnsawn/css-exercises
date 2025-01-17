@@ -24,3 +24,27 @@ img {
   justify-content: center;
   background: #eee;
 }
+
+
+/* My Work */
+.title {
+  display: flex;
+  justify-content: center;
+  margin: 16px;
+}
+
+.plants-container,
+.plant {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+}
+
+.plant {
+  flex-direction: column;
+}
+
+.text {
+  text-align: center;
+}
